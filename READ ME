@@ -1,0 +1,55 @@
+----!README FOR HOTEL MANAGEMENT SYSTEM!----
+
+INTRODUCTION
+
+
+•	Developed using PHP Laravel 5 for application logic and Laravel 5 framework using MVC Architecture, HTML5/CSS3, bootstrap for application front-end, and MySQL for application Database Functions.
+
+Features implemented:
+--------------------------------
+•	Separate interfaces for adding, viewing and searching hotel details.
+•	Allow adding hotels details.
+•	Allow searching details.
+•	Allow view all details.
+•	Allow delete details.
+
+TESTING SYSTEM
+
+INSTALL COMPOSER
+================
+ Go to  this link https://getcomposer.org/Composer-Setup.exe and download the composer.exe
+
+INSTALL LARAVEL
+==============
+After install the composer then open cmd and download the Laravel installer using Composer using this Command in your command prompt.
+
+      composer global require "laravel/installer=~1.1"
+
+COPYING PROJECT
+===============
+Extract the hotelMGT.zip file and copy the folder inside to XAMMP\htdocs\
+
+MIGRATE THE DATA BASE
+=====================
+
+•	Firstly create a database called “db_hotel” .
+
+•	OPEN the cmd and set the path to XAMMP\htdocs\hotelMGT\
+Run this command to migrate the data base
+
+    php artisan migrate
+
+EXECUTE THE PROJECT
+==================
+•	OPEN the cmd and set the path to XAMMP\htdocs\hotelMGT\
+
+•	Then run this command in cmd
+
+        php artisan serve
+
+•	Open any Browser and type  
+			
+        localhost:8000/main
+      
+•	After done this all you can view the Project.
+
